@@ -15,15 +15,16 @@ h1 {
   padding-top: 26px;
 }
 
-.job {
+.sales {
   width: 300px;
   height: 300px;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-}
-
-.sales {
   border: solid 10px red;
 }
+
+/* .sales {
+  border: solid 10px red;
+} */

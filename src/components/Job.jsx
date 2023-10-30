@@ -1,10 +1,10 @@
 const Job = (props) => {
   console.log(props);
   return (
-    <div className="job">
+    <div className={props.className}>
       <h2>{title}</h2>
       <p>
-        {props.contractType} {props.country} {props.city}
+        {props.contractType} - {props.country} - {props.city}
       </p>
     </div>
   );
